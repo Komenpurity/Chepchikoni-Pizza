@@ -1,0 +1,18 @@
+
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+.jumbotron-detail-pizza{
+    background: url("../pizza-day.jpg") no-repeat fixed;
+}
+
+
+.jumbotron{
+    height: 65vh;
+    background-size: cover;
+}
+.about{
+    text-align: center;
+}
