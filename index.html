@@ -40,9 +40,10 @@
     </div>
 </div>
 
-       <div class="container">
+       <div class="container form-order">
            <div class="row">
              <form>
+                 <div class="col-md-12">
                  <h4 class="display-4">Order Your Pizza Here</h4>
 
                 <div class="form-group">
@@ -109,8 +110,16 @@
                   <button type="button" class="btn btn-outline-secondary">Checkout</button>
 
              </form>
-
+            </div>
            </div>
         </div>
+
+        <div class="order-summary" id="sum-order">
+            <h2 class="margin-top-0 text-center summary" id="summary">Order Summary</h2>
+            <h3 class="text-center summary">Your order is as follows:</h3>
+            <ol id="list" class="text-center sum">
+            </ol>
+        </div>
+
  </body>
  </html>

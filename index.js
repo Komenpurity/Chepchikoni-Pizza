@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    (".order-summary").hide();
+    ("#sum-order").hide();
 })
