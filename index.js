@@ -13,6 +13,7 @@ $(document).ready(function(){
 });
 
 
+
 $(document).ready(function(){
     $("#checkout").click(function () {
         let flavour = $("#flavour option:selected").val();
@@ -21,6 +22,10 @@ $(document).ready(function(){
         let topping = $("#topping option:selected").val();
         let number = $("#number").val();
         console.log(size);
+        
+        $("#form-order").hide();
+        $("#sum-order").show();
+         
      })
 })
  
@@ -38,12 +43,4 @@ $(document).ready(function(){
  let newOrder = order(flavour, size, crust, topping, number, totalPrice);
  console.log(newOrder);
 
-
- $(document).ready(function(){
-    $("#checkout").click(function(){
-        alert("Hey");
-       $(".form-ordered").slideDown();
-       $("#sum-order").slideUp();
-   });
- });
  
