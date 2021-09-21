@@ -12,14 +12,18 @@ $(document).ready(function(){
     });
 });
 
- $("#checkout").click(function () {
-    let flavour = $("#flavour option:selected").val();
-    let size = $("#size option:selected").val();
-    let crust = $("#crust option:selected").val();
-    let topping = $("#topping option:selected").val();
-    let number = $("#number").val();
-    console.log(size);
- })
+
+$(document).ready(function(){
+    $("#checkout").click(function () {
+        let flavour = $("#flavour option:selected").val();
+        let size = $("#size option:selected").val();
+        let crust = $("#crust option:selected").val();
+        let topping = $("#topping option:selected").val();
+        let number = $("#number").val();
+        console.log(size);
+     })
+})
+ 
 
  let order = (f,s,c,t,n,total) => {
      this.flavour = f;
@@ -34,7 +38,12 @@ $(document).ready(function(){
  let newOrder = order(flavour, size, crust, topping, number, totalPrice);
  console.log(newOrder);
 
- $("#checkout").click(function(){
-     $(".form-ordered").toggle();
-    
-});
+
+ $(document).ready(function(){
+    $("#checkout").click(function(){
+        alert("Hey");
+       $(".form-ordered").slideDown();
+       $("#sum-order").slideUp();
+   });
+ });
+ 
