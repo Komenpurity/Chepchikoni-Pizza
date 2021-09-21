@@ -1,4 +1,7 @@
-
+body{
+  padding: 20px;
+  margin: 16px;
+}
 
 .jumbotron-detail-pizza{
     background: url("../pizza-day.jpg") no-repeat fixed;
@@ -37,5 +40,8 @@
 
   footer{
     text-align: center;
+    
   }
+
+  
   
