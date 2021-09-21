@@ -15,3 +15,7 @@
 .about{
     text-align: center;
 }
+
+.Order-form row{
+    display: block;
+}

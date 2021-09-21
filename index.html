@@ -37,9 +37,80 @@
     </div>
 </div>
 
-       <div class="container">
+       <div class="container form">
            <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Order Your Pizza Here</h2>
+                <hr>
 
+                <form class="Order-form row">
+
+                    <label> Pick your pizza Flavour:</label>
+                    <select class="form-select mb-3 flavour" required>
+                        <option value="vegtikka">Veg Tikka</option>
+                        <option value="chickentikka">Chicken Tikka</option>
+                        <option value="periperi">Peri-Peri Chicken</option>
+                        <option value="bbq">BBQ Steak</option>
+                        <option value="boerewors">Boerewors</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="mushroom">Chicken and Mushroom</option>
+                        <option value="regina">Regina Pizza</option>
+                    </select>
+                
+                    <hr>
+
+                    <label>Chose your preferred Size:</label>
+                    <select class="form-select" id="size" required>
+                        <option value="regular">Regular @ Ksh 500</option>
+                        <option value="medium">Medium @ Ksh 800</option>
+                        <option value="large">Large @ Ksh 1200</option>
+                    </select>
+                    <hr>
+
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="form-select" id="crust" required>
+                        <option value="thin">Thin Crust @ Ksh. 100</option>
+                        <option value="thick">Thick Crust @ Ksh. 150</option>
+                        <option value="flatbread">FlatBread Crust @ Ksh. 180</option>
+                        <option value="custom">Custom Crust @ Ksh. 280</option>
+                    </select>
+
+                    <hr>
+
+                    <label>Select Your favourite Toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                        <option value="mushroom">Mushroom @ Ksh. 80</option>
+                        <option value="greenpepper">Green Pepper @ Ksh. 80</option>
+                        <option value="tomato">Tomato @ Ksh. 80</option>
+                        <option value="onions">Onions @ Ksh. 80</option>
+
+                        <option value=""></option>
+                        <option value="olives">Olives @ Ksh. 120</option>
+                        <option value="pineapple">Pineapple @ Ksh. 120</option>
+                        <option value="sweetcorn">Sweet Corn @ Ksh. 120</option>
+                        <option value="macon">Macon @ Ksh. 120</option>
+                        <option value="mince">Mince @ Ksh. 120</option>
+                        <option value=""></option>
+
+                        <option value="beef">Beef Peperoni @ sh. 170</option>
+                        <option value="chicken">Periperi Chicken @ sh. 170</option>
+                    </select>
+
+                    <hr>
+
+                    <label for="number">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                        required>
+
+                    <hr>
+
+                </form>
+                <a href="#summary">
+                    <button type="submit" class="btn btn-primary btn-block btn-lg" id="checkout">
+                        Checkout
+                    </button>
+                </a>
+            </div>
            </div>
        </div>
 
