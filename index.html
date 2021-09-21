@@ -20,6 +20,9 @@
 
      <div class="jumbotron jumbotron-detail-pizza">
          <h3 class="display-3 text-white">Chepchikoni Pizza's</h2>
+            <blockquote class="blockquote">
+                <footer class="blockquote-footer text-white">Deliciously Kenyan</footer>
+            </blockquote>
      </div>
 
      <div class="container about">
@@ -37,16 +40,14 @@
     </div>
 </div>
 
-       <div class="container form">
+       <div class="container">
            <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-center">Order Your Pizza Here</h2>
-                <hr>
+             <form>
+                 <h4 class="display-4">Order Your Pizza Here</h4>
 
-                <form class="Order-form row">
-
-                    <label> Pick your pizza Flavour:</label>
-                    <select class="form-select mb-3 flavour" required>
+                <div class="form-group">
+                    <label for="form-select">Pick your Pizza Flavour:</label>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
                         <option value="vegtikka">Veg Tikka</option>
                         <option value="chickentikka">Chicken Tikka</option>
                         <option value="periperi">Peri-Peri Chicken</option>
@@ -56,29 +57,30 @@
                         <option value="mushroom">Chicken and Mushroom</option>
                         <option value="regina">Regina Pizza</option>
                     </select>
-                
-                    <hr>
+                  </div>
 
-                    <label>Chose your preferred Size:</label>
-                    <select class="form-select" id="size" required>
+                  <div class="form-group">
+                    <label for="form-select">Choose your Preferred Size:</label>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
                         <option value="regular">Regular @ Ksh 500</option>
                         <option value="medium">Medium @ Ksh 800</option>
                         <option value="large">Large @ Ksh 1200</option>
                     </select>
-                    <hr>
+                  </div>
 
-                    <label for="crust">Choose your favorite Crust:</label>
-                    <select class="form-select" id="crust" required>
+                  <div class="form-group">
+                    <label for="form-select">Choose your Favorite Crust:</label>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
                         <option value="thin">Thin Crust @ Ksh. 100</option>
                         <option value="thick">Thick Crust @ Ksh. 150</option>
                         <option value="flatbread">FlatBread Crust @ Ksh. 180</option>
                         <option value="custom">Custom Crust @ Ksh. 280</option>
                     </select>
+                  </div>
 
-                    <hr>
-
-                    <label>Select Your favourite Toppings</label>
-                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                  <div class="form-group">
+                    <label for="form-select">Choose your Favorite Topping:</label>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
                         <option value="mushroom">Mushroom @ Ksh. 80</option>
                         <option value="greenpepper">Green Pepper @ Ksh. 80</option>
                         <option value="tomato">Tomato @ Ksh. 80</option>
@@ -95,24 +97,20 @@
                         <option value="beef">Beef Peperoni @ sh. 170</option>
                         <option value="chicken">Periperi Chicken @ sh. 170</option>
                     </select>
+                  </div>
 
-                    <hr>
-
+                  <div class="form-group">
                     <label for="number">Number of Pizza's</label>
                     <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                         required>
 
-                    <hr>
+                  </div>
 
-                </form>
-                <a href="#summary">
-                    <button type="submit" class="btn btn-primary btn-block btn-lg" id="checkout">
-                        Checkout
-                    </button>
-                </a>
-            </div>
+                  <button type="button" class="btn btn-outline-secondary">Checkout</button>
+
+             </form>
+
            </div>
-       </div>
-
+        </div>
  </body>
  </html>
