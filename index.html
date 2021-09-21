@@ -121,11 +121,23 @@
             </ol>
         </div>
 
-      <section >
-      
-        <button type="button" class="btn btn-outline-dark m-5 center-block">Make Delivery</button>
-      
-      </section>
+
+
+      <div class="cdata-overlay p-5">
+        <div class="customerdata row">
+            <div class="col-sm-3"></div>
+            <form class="form-group col-sm-6 data form-control-cdata">
+                <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                <input class="btn btn-primary" type="submit" id="submit" value="Submit">
+            </form>
+            <button type="button" data-toggle="modal" id="make-delivery" data-target="#deliveryModal" class="btn btn-outline-dark center-block">Make Delivery</button>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</div>
+
 
  </body>
  </html>
