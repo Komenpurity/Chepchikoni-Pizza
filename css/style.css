@@ -1,6 +1,7 @@
 body{
   padding: 20px;
   margin: 16px;
+  border: 2px solid #ccc;
 }
 
 .jumbotron-detail-pizza{
@@ -40,8 +41,5 @@ body{
 
   footer{
     text-align: center;
-    
   }
-
-  
   
