@@ -12,12 +12,7 @@
      <title>Chepchikoni-Pizza</title>
  </head>
  <body>
-    <div>
-        <nav class="navbar navbar-light bg-light pl-4">
-            <img src="./logo.png" class="img-fluid logo">
-          </nav>
-    </div>
-
+     
      <div class="jumbotron jumbotron-detail-pizza">
          <h3 class="display-3 text-white">Chepchikoni Pizza's</h2>
             <blockquote class="blockquote">
@@ -40,7 +35,7 @@
     </div>
 </div>
 
-       <div class="container p-3 form-order d-flex justify-content-center">
+       <div class="container p-3 form-ordered d-flex justify-content-center">
            <div class="row">
              <form>
                  <div class="col-md-12">
@@ -48,7 +43,7 @@
 
                 <div class="form-group">
                     <label for="form-select">Pick your Pizza Flavour:</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <select class="form-control" id="flavour" required>
                         <option value="vegtikka">Veg Tikka</option>
                         <option value="chickentikka">Chicken Tikka</option>
                         <option value="periperi">Peri-Peri Chicken</option>
@@ -62,7 +57,7 @@
 
                   <div class="form-group">
                     <label for="form-select">Choose your Preferred Size:</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <select class="form-control" id="size" required>
                         <option value="regular">Regular @ Ksh 500</option>
                         <option value="medium">Medium @ Ksh 800</option>
                         <option value="large">Large @ Ksh 1200</option>
@@ -71,7 +66,7 @@
 
                   <div class="form-group">
                     <label for="form-select">Choose your Favorite Crust:</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <select class="form-control" id="crust" required>
                         <option value="thin">Thin Crust @ Ksh. 100</option>
                         <option value="thick">Thick Crust @ Ksh. 150</option>
                         <option value="flatbread">FlatBread Crust @ Ksh. 180</option>
@@ -81,7 +76,7 @@
 
                   <div class="form-group">
                     <label for="form-select">Choose your Favorite Topping:</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <select class="form-control" id="topping" required>
                         <option value="mushroom">Mushroom @ Ksh. 80</option>
                         <option value="greenpepper">Green Pepper @ Ksh. 80</option>
                         <option value="tomato">Tomato @ Ksh. 80</option>
@@ -107,7 +102,7 @@
 
                   </div>
                 <a href="#summary">
-                  <button type="button" id="checkout" class="btn btn-outline-secondary">Checkout</button>
+                  <button type="button" id="checkout" class="btn btn-primary">Checkout</button>
                 </a>
              </form>
             </div>
@@ -132,7 +127,7 @@
                 <input type="text" class="form-control cdata" placeholder="Enter the location: ">
                 <input class="btn btn-primary" type="submit" id="submit" value="Submit">
             </form>
-            <button type="button" data-toggle="modal" id="make-delivery" data-target="#deliveryModal" class="btn btn-outline-dark center-block">Make Delivery</button>
+            <button type="button" data-toggle="modal" id="make-delivery" data-target="#deliveryModal" class="btn btn-success center-block">Make Delivery</button>
             <div class="col-sm-3"></div>
         </div>
     </div>

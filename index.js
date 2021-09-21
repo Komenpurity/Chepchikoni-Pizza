@@ -9,5 +9,32 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#submit").click(function(){
         alert("Your order will be delivered to your location");
-    })
-})
+    });
+});
+
+ $("#checkout").click(function () {
+    let flavour = $("#flavour option:selected").val();
+    let size = $("#size option:selected").val();
+    let crust = $("#crust option:selected").val();
+    let topping = $("#topping option:selected").val();
+    let number = $("#number").val();
+    console.log(size);
+ })
+
+ let order = (f,s,c,t,n,total) => {
+     this.flavour = f;
+     this.size = s;
+     this.crust = c;
+     this.topping = t;
+     this.number = n;
+     this.total =total;
+      return{f,s,c,t,n,total};
+ };
+
+ let newOrder = order(flavour, size, crust, topping, number, totalPrice);
+ console.log(newOrder);
+
+ $("#checkout").click(function(){
+     $(".form-ordered").toggle();
+    
+});
