@@ -1,4 +1,4 @@
- ## ChepChikoni Pizza
+ # ChepChikoni Pizza
 
  # Live Demo
 
@@ -11,4 +11,17 @@
   * HTML 
   * CSS
   * Bootstrap
+
+  # Author
+  [Purity Jepkorir] (https://www.linkedin.com/in/purity-jepkorir-bb0a50207/)
+
+ # Setup and Installation Instructions
+ * Install live server from Vscode extensions
+ * Vs code
+
+
+  # License Information
+  [MIT] (https://opensource.org/licenses/MIT)
+
+
 
