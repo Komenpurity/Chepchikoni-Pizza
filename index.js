@@ -24,7 +24,9 @@ $(document).ready(function(){
         console.log(size);
         
         $("#form-order").hide();
-        $("#sum-order").show();
+        $("#sum-order").show(function(){
+            
+        });
          
      })
 })
@@ -44,3 +46,13 @@ $(document).ready(function(){
  console.log(newOrder);
 
  
+ $('#list').text(" ");
+        $("#list").append("<br>" + "Flavour Chosen is:   " + newOrder.f + "<br>" + "Size :   "
+            + newOrder.s + "<br>" + "Crust Chosen is:     "
+            + newOrder.c + "<br>" + "Toppings Chosen:     "
+            + newOrder.t + "<br>" + " Number of pizzas :    "
+            + newOrder.n + "<br>" + "The Total Price is KSH:  "
+            + newOrder.total + "<br><br>").css('font-size', '30px');
+
+
+            
