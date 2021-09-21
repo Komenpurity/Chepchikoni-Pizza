@@ -13,7 +13,7 @@
   * Bootstrap
 
   # Author
-  [Purity Jepkorir] (https://www.linkedin.com/in/purity-jepkorir-bb0a50207/)
+  [Purity Jepkorir](https://www.linkedin.com/in/purity-jepkorir-bb0a50207/)
 
  # Setup and Installation Instructions
  * Install live server from Vscode extensions
@@ -21,7 +21,7 @@
 
 
   # License Information
-  [MIT] (https://opensource.org/licenses/MIT)
+  [MIT](https://opensource.org/licenses/MIT)
 
 
 
